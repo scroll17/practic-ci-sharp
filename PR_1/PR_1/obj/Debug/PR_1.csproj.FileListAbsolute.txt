@@ -1,0 +1,9 @@
+E:\IZVP_C#\PR_1\PR_1\bin\Debug\PR_1.exe.config
+E:\IZVP_C#\PR_1\PR_1\bin\Debug\PR_1.exe
+E:\IZVP_C#\PR_1\PR_1\bin\Debug\PR_1.pdb
+E:\IZVP_C#\PR_1\PR_1\obj\Debug\PR_1.csprojResolveAssemblyReference.cache
+E:\IZVP_C#\PR_1\PR_1\obj\Debug\PR_1.Form1.resources
+E:\IZVP_C#\PR_1\PR_1\obj\Debug\PR_1.Properties.Resources.resources
+E:\IZVP_C#\PR_1\PR_1\obj\Debug\PR_1.csproj.GenerateResource.Cache
+E:\IZVP_C#\PR_1\PR_1\obj\Debug\PR_1.exe
+E:\IZVP_C#\PR_1\PR_1\obj\Debug\PR_1.pdb
