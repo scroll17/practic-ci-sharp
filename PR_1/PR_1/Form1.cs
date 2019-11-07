@@ -26,6 +26,7 @@ namespace PR_1
             string[] count = new string[] {"9", "8", "7", "6", "5", "4", "3", "2", "1", "нет"};
 
             if (j == 9){
+                button2.Enabled = true;
                 return;
             }
 
@@ -40,6 +41,20 @@ namespace PR_1
             textBox1.Text = next;
 
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (j == 0) {
+                return;
+            }
+
+            if (j == 9) {
+                --j;
+            }
+
+            string[] count = new string[] {"9", "8", "7", "6", "5", "4", "3", "2", "1", "нет"};
+            listBox1.Items.Add(Convert.ToString(count[j--]));
         }
     }
 }
