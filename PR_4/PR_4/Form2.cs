@@ -19,6 +19,7 @@ namespace PR_4
 
         public double[] array = new double[5];
         public int index = 0;
+        public string text = "Середнее геометрическое : ";
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -61,10 +62,13 @@ namespace PR_4
 
         private void button3_Click(object sender, EventArgs e)
         {
+            listBox1.Items.Clear();
+
             Random rand = new Random();
             int[,] array = new int[3, 3];
 
-            double sum = 0;
+            double SummaryOfGeometry;
+            double sum = 1;
             int countSum = 0;
 
             for(int i=0; i<3; i++)
@@ -75,7 +79,7 @@ namespace PR_4
 
                     if(randomValue >= 5 && randomValue <= 15)
                     {
-                        sum += randomValue;
+                        sum *= randomValue;
                         countSum++;
                     }
 
@@ -85,7 +89,16 @@ namespace PR_4
                 }
             }
 
-            label4.Text += Convert.ToString(sum / countSum);
+            if(countSum > 0)
+            {
+                SummaryOfGeometry = Math.Pow(sum, 1.0 / countSum);
+                label4.Text = text + Convert.ToString(SummaryOfGeometry);
+            }
+            else
+            {
+                label4.Text = text + " 0 ";
+            }
+          
         }
     }
 }
