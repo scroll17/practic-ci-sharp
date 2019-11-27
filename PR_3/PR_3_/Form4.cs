@@ -43,6 +43,7 @@ namespace PR_3_
 
             if (size == 50 || size == 100)
             {
+                dataGridView1.Rows.Add(name, Convert.ToString(size));
                 dataGridView2.Rows.Add(name, Convert.ToString(size));
             }
             else
