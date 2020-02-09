@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pr7", "pr7\pr7.csproj", "{DBFE95C7-043B-4C59-B6E0-6893ECFAA279}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBFE95C7-043B-4C59-B6E0-6893ECFAA279}.Debug|x86.ActiveCfg = Debug|x86
+		{DBFE95C7-043B-4C59-B6E0-6893ECFAA279}.Debug|x86.Build.0 = Debug|x86
+		{DBFE95C7-043B-4C59-B6E0-6893ECFAA279}.Release|x86.ActiveCfg = Release|x86
+		{DBFE95C7-043B-4C59-B6E0-6893ECFAA279}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
