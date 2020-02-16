@@ -69,7 +69,7 @@ namespace ПР12
 
         private void button4_Click(object sender, EventArgs e)
         {
-            if (numericUpDown1.Value == 1941)
+            if (numericUpDown1.Value == 31)
             {
                 listView1.Items[0].SubItems[3].Text = "1";
             }
@@ -82,7 +82,7 @@ namespace ПР12
 
         private void button5_Click(object sender, EventArgs e)
         {
-            if (checkBox1.Checked && checkBox3.Checked && !checkBox2.Checked && !checkBox4.Checked)
+            if (checkBox1.Checked && checkBox3.Checked && !checkBox2.Checked && checkBox4.Checked)
             {
                 listView1.Items[0].SubItems[4].Text = "1";
             }
@@ -91,6 +91,16 @@ namespace ПР12
                 listView1.Items[0].SubItems[4].Text = "0";
             }
             button5.Enabled = false;
+        }
+
+        private void groupBox4_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void listView1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

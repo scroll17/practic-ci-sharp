@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
@@ -113,6 +114,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.BackColor = System.Drawing.Color.LightCyan;
             this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Controls.Add(this.radioButton4);
             this.groupBox1.Controls.Add(this.radioButton3);
@@ -189,10 +191,11 @@
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage2.Size = new System.Drawing.Size(564, 158);
             this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Физика";
+            this.tabPage2.Text = "Интернет";
             // 
             // groupBox2
             // 
+            this.groupBox2.BackColor = System.Drawing.Color.Khaki;
             this.groupBox2.Controls.Add(this.pictureBox1);
             this.groupBox2.Controls.Add(this.button2);
             this.groupBox2.Controls.Add(this.radioButton5);
@@ -209,7 +212,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::ПР12.Properties.Resources._200px_Triode_vacuum_tube_rus;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(452, 14);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(100, 132);
@@ -232,10 +235,10 @@
             this.radioButton5.AutoSize = true;
             this.radioButton5.Location = new System.Drawing.Point(15, 101);
             this.radioButton5.Name = "radioButton5";
-            this.radioButton5.Size = new System.Drawing.Size(49, 17);
+            this.radioButton5.Size = new System.Drawing.Size(59, 17);
             this.radioButton5.TabIndex = 5;
             this.radioButton5.TabStop = true;
-            this.radioButton5.Text = "диод";
+            this.radioButton5.Text = "yandex";
             this.radioButton5.UseVisualStyleBackColor = true;
             // 
             // radioButton6
@@ -243,10 +246,10 @@
             this.radioButton6.AutoSize = true;
             this.radioButton6.Location = new System.Drawing.Point(15, 78);
             this.radioButton6.Name = "radioButton6";
-            this.radioButton6.Size = new System.Drawing.Size(49, 17);
+            this.radioButton6.Size = new System.Drawing.Size(84, 17);
             this.radioButton6.TabIndex = 4;
             this.radioButton6.TabStop = true;
-            this.radioButton6.Text = "анод";
+            this.radioButton6.Text = "google keep";
             this.radioButton6.UseVisualStyleBackColor = true;
             // 
             // radioButton7
@@ -254,10 +257,10 @@
             this.radioButton7.AutoSize = true;
             this.radioButton7.Location = new System.Drawing.Point(15, 53);
             this.radioButton7.Name = "radioButton7";
-            this.radioButton7.Size = new System.Drawing.Size(54, 17);
+            this.radioButton7.Size = new System.Drawing.Size(67, 17);
             this.radioButton7.TabIndex = 3;
             this.radioButton7.TabStop = true;
-            this.radioButton7.Text = "катод";
+            this.radioButton7.Text = "evernote";
             this.radioButton7.UseVisualStyleBackColor = true;
             // 
             // radioButton8
@@ -268,7 +271,7 @@
             this.radioButton8.Size = new System.Drawing.Size(54, 17);
             this.radioButton8.TabIndex = 2;
             this.radioButton8.TabStop = true;
-            this.radioButton8.Text = "триод";
+            this.radioButton8.Text = "github";
             this.radioButton8.UseVisualStyleBackColor = true;
             // 
             // tabPage3
@@ -284,6 +287,7 @@
             // 
             // groupBox3
             // 
+            this.groupBox3.BackColor = System.Drawing.Color.IndianRed;
             this.groupBox3.Controls.Add(this.button3);
             this.groupBox3.Controls.Add(this.radioButton9);
             this.groupBox3.Controls.Add(this.radioButton10);
@@ -363,6 +367,7 @@
             // 
             // groupBox4
             // 
+            this.groupBox4.BackColor = System.Drawing.Color.Chartreuse;
             this.groupBox4.Controls.Add(this.numericUpDown1);
             this.groupBox4.Controls.Add(this.button4);
             this.groupBox4.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -371,7 +376,8 @@
             this.groupBox4.Size = new System.Drawing.Size(564, 158);
             this.groupBox4.TabIndex = 1;
             this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "Начало ВОВ";
+            this.groupBox4.Text = "Дата Нового года ";
+            this.groupBox4.Enter += new System.EventHandler(this.groupBox4_Enter);
             // 
             // numericUpDown1
             // 
@@ -407,6 +413,7 @@
             // 
             // groupBox5
             // 
+            this.groupBox5.BackColor = System.Drawing.Color.Gray;
             this.groupBox5.Controls.Add(this.checkBox4);
             this.groupBox5.Controls.Add(this.checkBox3);
             this.groupBox5.Controls.Add(this.checkBox2);
@@ -425,9 +432,9 @@
             this.checkBox4.AutoSize = true;
             this.checkBox4.Location = new System.Drawing.Point(8, 98);
             this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(67, 17);
+            this.checkBox4.Size = new System.Drawing.Size(80, 17);
             this.checkBox4.TabIndex = 10;
-            this.checkBox4.Text = "Кіріянов";
+            this.checkBox4.Text = "правильно";
             this.checkBox4.UseVisualStyleBackColor = true;
             // 
             // checkBox3
@@ -435,9 +442,9 @@
             this.checkBox3.AutoSize = true;
             this.checkBox3.Location = new System.Drawing.Point(8, 75);
             this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(67, 17);
+            this.checkBox3.Size = new System.Drawing.Size(80, 17);
             this.checkBox3.TabIndex = 9;
-            this.checkBox3.Text = "Кір\'янов";
+            this.checkBox3.Text = "правильно";
             this.checkBox3.UseVisualStyleBackColor = true;
             // 
             // checkBox2
@@ -445,9 +452,9 @@
             this.checkBox2.AutoSize = true;
             this.checkBox2.Location = new System.Drawing.Point(8, 52);
             this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(73, 17);
+            this.checkBox2.Size = new System.Drawing.Size(95, 17);
             this.checkBox2.TabIndex = 8;
-            this.checkBox2.Text = "апостров";
+            this.checkBox2.Text = "не правильно";
             this.checkBox2.UseVisualStyleBackColor = true;
             // 
             // checkBox1
@@ -455,9 +462,9 @@
             this.checkBox1.AutoSize = true;
             this.checkBox1.Location = new System.Drawing.Point(8, 29);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(75, 17);
+            this.checkBox1.Size = new System.Drawing.Size(80, 17);
             this.checkBox1.TabIndex = 7;
-            this.checkBox1.Text = "апостроф";
+            this.checkBox1.Text = "правильно";
             this.checkBox1.UseVisualStyleBackColor = true;
             // 
             // button5
@@ -496,6 +503,7 @@
             this.listView1.TabIndex = 1;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
+            this.listView1.SelectedIndexChanged += new System.EventHandler(this.listView1_SelectedIndexChanged);
             // 
             // columnHeader1
             // 
@@ -504,7 +512,7 @@
             // 
             // columnHeader2
             // 
-            this.columnHeader2.Text = "Физика";
+            this.columnHeader2.Text = "Интернет";
             this.columnHeader2.Width = 99;
             // 
             // columnHeader3
