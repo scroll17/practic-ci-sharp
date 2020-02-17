@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ПР9.Properties {
+namespace ПР15.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
